@@ -9,11 +9,11 @@ struct Mobiliario: Identifiable {
     
     var id: Int
     var nombre: String
-    var precioUnitario: Double
+    var precioUnitario: Float
     var existencia: Int
     var categoria: String
     
-    init(id: Int, nombre: String, precioUnitario: Double, existencia: Int, categoria: String) {
+    init(id: Int, nombre: String, precioUnitario: Float, existencia: Int, categoria: String) {
         self.id = id
         self.nombre = nombre
         self.precioUnitario = precioUnitario
