@@ -4,8 +4,9 @@
 //
 //  Created by Roberto Marco García Hernández on 10/11/22.
 //
+import Foundation
 
-struct Mobiliario: Identifiable {
+/*struct Mobiliario: Identifiable {
     
     var id: Int
     var nombre: String
@@ -21,4 +22,5 @@ struct Mobiliario: Identifiable {
         self.categoria = categoria
     }
 }
+ */
 

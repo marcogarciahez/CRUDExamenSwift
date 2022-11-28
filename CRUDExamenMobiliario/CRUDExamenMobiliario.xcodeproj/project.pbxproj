@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A95F7560292FD33C00D0C969 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F755F292FD33C00D0C969 /* CoreDataManager.swift */; };
 		A9A404BE291D60EF007FF871 /* CRUDExamenMobiliarioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A404BD291D60EF007FF871 /* CRUDExamenMobiliarioApp.swift */; };
 		A9A404C0291D60EF007FF871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A404BF291D60EF007FF871 /* ContentView.swift */; };
 		A9A404C2291D60F0007FF871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A404C1291D60F0007FF871 /* Assets.xcassets */; };
 		A9A404C5291D60F0007FF871 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A404C4291D60F0007FF871 /* Preview Assets.xcassets */; };
-		A9A404C7291D60F0007FF871 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A404C6291D60F0007FF871 /* Persistence.swift */; };
 		A9A404CA291D60F0007FF871 /* CRUDExamenMobiliario.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9A404C8291D60F0007FF871 /* CRUDExamenMobiliario.xcdatamodeld */; };
 		A9A404D1291D6147007FF871 /* Mobiliario.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A404D0291D6147007FF871 /* Mobiliario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A95F755F292FD33C00D0C969 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		A9A404BA291D60EF007FF871 /* CRUDExamenMobiliario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUDExamenMobiliario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A404BD291D60EF007FF871 /* CRUDExamenMobiliarioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDExamenMobiliarioApp.swift; sourceTree = "<group>"; };
 		A9A404BF291D60EF007FF871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9A404C1291D60F0007FF871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A404C4291D60F0007FF871 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A9A404C6291D60F0007FF871 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A9A404C9291D60F0007FF871 /* CRUDExamenMobiliario.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CRUDExamenMobiliario.xcdatamodel; sourceTree = "<group>"; };
 		A9A404D0291D6147007FF871 /* Mobiliario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobiliario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,8 +60,8 @@
 				A9A404BD291D60EF007FF871 /* CRUDExamenMobiliarioApp.swift */,
 				A9A404D0291D6147007FF871 /* Mobiliario.swift */,
 				A9A404BF291D60EF007FF871 /* ContentView.swift */,
+				A95F755F292FD33C00D0C969 /* CoreDataManager.swift */,
 				A9A404C1291D60F0007FF871 /* Assets.xcassets */,
-				A9A404C6291D60F0007FF871 /* Persistence.swift */,
 				A9A404C8291D60F0007FF871 /* CRUDExamenMobiliario.xcdatamodeld */,
 				A9A404C3291D60F0007FF871 /* Preview Content */,
 			);
@@ -148,8 +148,8 @@
 			files = (
 				A9A404CA291D60F0007FF871 /* CRUDExamenMobiliario.xcdatamodeld in Sources */,
 				A9A404D1291D6147007FF871 /* Mobiliario.swift in Sources */,
-				A9A404C7291D60F0007FF871 /* Persistence.swift in Sources */,
 				A9A404C0291D60EF007FF871 /* ContentView.swift in Sources */,
+				A95F7560292FD33C00D0C969 /* CoreDataManager.swift in Sources */,
 				A9A404BE291D60EF007FF871 /* CRUDExamenMobiliarioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
