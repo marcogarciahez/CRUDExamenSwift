@@ -9,7 +9,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    let coreDM: CoreDataManager
+    @State var coreDM: CoreDataManager
     @State var arrayMobiliario = [Mobiliario]()
     var body: some View {
         ZStack{
@@ -41,6 +41,7 @@ struct ContentView: View {
                         })
                     }
                     Button {
+                        coreDM = CoreDataManager()
                         arrayMobiliario = coreDM.obtenerMobiliario()
                     } label: {
                         Text("Recargar lista")
@@ -51,6 +52,7 @@ struct ContentView: View {
                 }
             }
             .onAppear{
+                coreDM = CoreDataManager()
                 arrayMobiliario = coreDM.obtenerMobiliario()
             }
         }
